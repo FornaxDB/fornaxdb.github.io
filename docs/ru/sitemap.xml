@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fornax.github.io/ru/categories/</loc>
+    <loc>https://fornax.github.io/docs/ru/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://fornax.github.io/categories/"
+                href="https://fornax.github.io/docs/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://fornax.github.io/zh/categories/"
+                href="https://fornax.github.io/docs/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://fornax.github.io/ru/categories/"
+                href="https://fornax.github.io/docs/ru/categories/"
                 />
   </url><url>
-    <loc>https://fornax.github.io/ru/</loc>
+    <loc>https://fornax.github.io/docs/ru/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://fornax.github.io/"
+                href="https://fornax.github.io/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://fornax.github.io/zh/"
+                href="https://fornax.github.io/docs/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://fornax.github.io/ru/"
+                href="https://fornax.github.io/docs/ru/"
                 />
   </url><url>
-    <loc>https://fornax.github.io/ru/tags/</loc>
+    <loc>https://fornax.github.io/docs/ru/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://fornax.github.io/tags/"
+                href="https://fornax.github.io/docs/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://fornax.github.io/zh/tags/"
+                href="https://fornax.github.io/docs/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://fornax.github.io/ru/tags/"
+                href="https://fornax.github.io/docs/ru/tags/"
                 />
   </url>
 </urlset>

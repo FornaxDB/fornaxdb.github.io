@@ -2,19 +2,19 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>https://fornax.github.io/en/sitemap.xml</loc>
+    <loc>https://fornax.github.io/docs/en/sitemap.xml</loc>
     
       <lastmod>2021-12-30T17:21:48+05:30</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://fornax.github.io/ru/sitemap.xml</loc>
+    <loc>https://fornax.github.io/docs/ru/sitemap.xml</loc>
     
   </sitemap>
   
   <sitemap>
-    <loc>https://fornax.github.io/zh/sitemap.xml</loc>
+    <loc>https://fornax.github.io/docs/zh/sitemap.xml</loc>
     
   </sitemap>
   
