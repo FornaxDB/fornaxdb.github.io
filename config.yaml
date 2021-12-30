@@ -3,6 +3,7 @@
 baseURL: https://fornax.github.io/
 title: FornaxDB
 theme: hugo-book
+publishDir: docs
 
 # Book configuration
 disablePathToLower: true
