@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://fornax.github.io/docs/en/sitemap.xml</loc>
-    
-      <lastmod>2021-12-30T17:21:48+05:30</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://fornax.github.io/docs/ru/sitemap.xml</loc>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://fornax.github.io/docs/zh/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>fornaxdb.github.io/docs/</loc>
+    <lastmod>2018-11-28T15:14:39+10:00</lastmod>
+  </url><url>
+    <loc>fornaxdb.github.io/docs/install-hugo/</loc>
+    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
+  </url><url>
+    <loc>fornaxdb.github.io/docs/install-theme/</loc>
+    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
+  </url><url>
+    <loc>fornaxdb.github.io/docs/configure/</loc>
+    <lastmod>2019-02-11T19:30:08+10:00</lastmod>
+  </url><url>
+    <loc>fornaxdb.github.io/docs/specimen/</loc>
+    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
+  </url><url>
+    <loc>fornaxdb.github.io/docs/example/</loc>
+    <lastmod>2019-02-11T19:27:37+10:00</lastmod>
+  </url><url>
+    <loc>fornaxdb.github.io/</loc>
+    <lastmod>2018-11-28T15:14:39+10:00</lastmod>
+  </url><url>
+    <loc>fornaxdb.github.io/categories/</loc>
+  </url><url>
+    <loc>fornaxdb.github.io/tags/</loc>
+  </url>
+</urlset>

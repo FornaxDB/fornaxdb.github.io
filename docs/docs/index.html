@@ -1,533 +1,211 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="theme-color" content="#FFFFFF">
-<meta name="color-scheme" content="light dark"><meta property="og:title" content="Docs" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://fornax.github.io/docs/docs/" />
-
-<title>Docs | FornaxDB</title>
-<link rel="manifest" href="/docs/manifest.json">
-<link rel="icon" href="/docs/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/docs/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css" integrity="sha256-RhgbyTN1upMgJudTs3xA5v&#43;LsWqe93DHi8xmPkV3sbo=" crossorigin="anonymous">
-  <script defer src="/docs/flexsearch.min.js"></script>
-  <script defer src="/docs/en.search.min.f6841809ac33ecfcb6682b32a08061966f6e8a073860788f5391dab9494ea962.js" integrity="sha256-9oQYCawz7Py2aCsyoIBhlm9uigc4YHiPU5HauUlOqWI=" crossorigin="anonymous"></script>
-
-  <script defer src="/docs/sw.min.2ab1e3340de39c3cdde4c38b14eb27de79536813e9f0c57a364c21cef9582fe6.js" integrity="sha256-KrHjNA3jnDzd5MOLFOsn3nlTaBPp8MV6NkwhzvlYL&#43;Y=" crossorigin="anonymous"></script>
-<link rel="alternate" type="application/rss+xml" href="https://fornax.github.io/docs/docs/index.xml" title="FornaxDB" />
-<!--
-Made with Book Theme
-https://github.com/alex-shpak/hugo-book
--->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Overview - FornaxDB</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
+  <link rel="icon" href="fornaxdb.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/fornaxdb.github.io/scss/style.scss">
+  
+
+  
+
 </head>
-<body dir="ltr">
-  <input type="checkbox" class="hidden toggle" id="menu-control" />
-  <input type="checkbox" class="hidden toggle" id="toc-control" />
-  <main class="container flex">
-    <aside class="book-menu">
-      <div class="book-menu-content">
-        
-  <nav>
-<h2 class="book-brand">
-  <a class="flex align-center" href="/docs/"><span>FornaxDB</span>
-  </a>
-</h2>
 
-
-<div class="book-search">
-  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
-  <div class="book-search-spinner hidden"></div>
-  <ul id="book-search-results"></ul>
+<body class='page page-default-list'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="fornaxdb.github.io/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-docs">
+      <a href="fornaxdb.github.io/docs/">
+        <span>Docs</span>
+      </a>
+    </li>
+    
+  </ul>
 </div>
-
-
-
-  
-
-
-
-  
-    
-  
-    
-  
-
-
-
-<ul class="book-languages">
-  <li>
-    <input type="checkbox" id="languages" class="toggle" />
-    <label for="languages" class="flex justify-between">
-      <a role="button" class="flex align-center">
-        <img src="/docs/svg/translate.svg" class="book-icon" alt="Languages" />
-        English
-      </a>
-    </label>
-
-    <ul>
-      
-      <li>
-        <a href="https://fornax.github.io/docs/ru/">
-          Russian
-        </a>
-      </li>
-      
-      <li>
-        <a href="https://fornax.github.io/docs/zh/">
-          Chinese
-        </a>
-      </li>
-      
-    </ul>
-  </li>
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-  
-  <ul>
-    
-      
-        <li class="book-section-flat" >
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/example/" class="">Example Site</a>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/example/table-of-contents/" class="">Table of Contents</a>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/example/table-of-contents/with-toc/" class="">With ToC</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/example/table-of-contents/without-toc/" class="">Without ToC</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <input type="checkbox" id="section-4e46b01272d410b3a99461d79326ddf4" class="toggle"  />
-    <label for="section-4e46b01272d410b3a99461d79326ddf4" class="flex justify-between">
-      <a role="button" class="">Collapsed</a>
-    </label>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/example/collapsed/3rd-level/" class="">3rd Level</a>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/example/collapsed/3rd-level/4th-level/" class="">4th Level</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li class="book-section-flat" >
-          
-  
-  
-
-  
-    <span>Shortcodes</span>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/shortcodes/buttons/" class="">Buttons</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/shortcodes/columns/" class="">Columns</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/shortcodes/details/" class="">Details</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/shortcodes/expand/" class="">Expand</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/shortcodes/hints/" class="">Hints</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/shortcodes/katex/" class="">Katex</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/shortcodes/mermaid/" class="">Mermaid</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <input type="checkbox" id="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="toggle"  />
-    <label for="section-d3fc1bf6d66cd84b896a0af9f40cb1d5" class="flex justify-between">
-      <a href="https://fornax.github.io/docs/docs/shortcodes/section/" class="">Section</a>
-    </label>
-  
-
-          
-  <ul>
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/shortcodes/section/first-page/" class="">First Page</a>
-  
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/shortcodes/section/second-page/" class="">Second Page</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-      
-        <li>
-          
-  
-  
-
-  
-    <a href="https://fornax.github.io/docs/docs/shortcodes/tabs/" class="">Tabs</a>
-  
-
-        </li>
-      
-    
-  </ul>
-
-        </li>
-      
-    
-  </ul>
-
-
-
-
-
-
-
-
-
-
-
-  
-<ul>
-  
-  <li>
-    <a href="/docs/posts/" >
-        Blog
-      </a>
-  </li>
-  
-  <li>
-    <a href="https://github.com/alex-shpak/hugo-book" target="_blank" rel="noopener">
-        Github
-      </a>
-  </li>
-  
-  <li>
-    <a href="https://themes.gohugo.io/hugo-book/" target="_blank" rel="noopener">
-        Hugo Themes
-      </a>
-  </li>
-  
-</ul>
-
-
-
-
-
-
-</nav>
-
-
-
-
-  <script>(function(){var a=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(b){localStorage.setItem("menu.scrollTop",a.scrollTop)}),a.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
-
-
- 
-      </div>
-    </aside>
-
-    <div class="book-page">
-      <header class="book-header">
-        
-  <div class="flex align-center justify-between">
-  <label for="menu-control">
-    <img src="/docs/svg/menu.svg" class="book-icon" alt="Menu" />
-  </label>
-
-  <strong>Docs</strong>
-
-  <label for="toc-control">
-    
-    <img src="/docs/svg/toc.svg" class="book-icon" alt="Table of Contents" />
-    
-  </label>
-</div>
-
-
-  
-  <aside class="hidden clearfix">
-    
-  
-
-
-
-
-  </aside>
-  
- 
-      </header>
-
-      
-      
-  <article class="markdown"></article>
- 
-      
-
-      <footer class="book-footer">
-        
-  <div class="flex flex-wrap justify-between">
-
-
-
-
-
-</div>
-
-
-
-  <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
-
-
- 
-        
-      </footer>
-
-      
-  
- 
-
-      <label for="menu-control" class="hidden book-menu-overlay"></label>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="fornaxdb.github.io"><img alt="Logo" src="/fornaxdb.github.io/images/logo.svg" /></a>
     </div>
+    <div class="logo-mobile">
+      <a href="fornaxdb.github.io"><img alt="Logo" src="/fornaxdb.github.io/images/logo-mobile.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="fornaxdb.github.io/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-docs">
+      <a href="fornaxdb.github.io/docs/">
+        <span>Docs</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
 
     
-    <aside class="book-toc">
-      <div class="book-toc-content">
-        
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
+    
+    <li class="">
+      <a href="fornaxdb.github.io/docs/install-hugo/">Install Hugo</a>
+    </li>
+    
+    <li class="">
+      <a href="fornaxdb.github.io/docs/install-theme/">Install Theme</a>
+    </li>
+    
+    <li class="">
+      <a href="fornaxdb.github.io/docs/configure/">Configuration</a>
+    </li>
+    
+    <li class="">
+      <a href="fornaxdb.github.io/docs/specimen/">Specimen</a>
+    </li>
+    
+    <li class="">
+      <a href="fornaxdb.github.io/docs/example/">Hugo Whisper</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+
+<span class="overview">Overview</span>
+<h1 class="title">Overview</h1>
+<div class="content">
+  <h2 id="whisper-theme">Whisper Theme</h2>
+<p>Whisper is a minimal documentation theme for Hugo. The design and functionality is intentionally minimal. We’re aiming for a similar feel to a Github readme.</p>
+
+</div>
+
+
+<div class="summary mb-2">
   
+  <h2 class="title-summary"><a href="fornaxdb.github.io/docs/install-hugo/">Install Hugo</a></h2>
+  <p>To use this theme you will need to have Hugo installed. If you don&rsquo;t already have Hugo installed please follow the official installation guide
+Check Hugo Version This theme uses Hugo Pipes to compile SCSS and minify assets. Please make sure you have the Hugo Extended version installed. If you are not using the extended version this theme will not not compile.
+hugo version </p>
+</div>
+
+
+<div class="summary mb-2">
+  
+  <h2 class="title-summary"><a href="fornaxdb.github.io/docs/install-theme/">Install Theme</a></h2>
+  <p>Create a new Hugo site hugo new site mynewsite This will create a fresh Hugo site in the folder mynewsite.
+Install theme Copy or git clone this theme into the sites themes folder mynewsite/themes
+Install with Git cd mynewsite cd themes git clone https://github.com/jugglerx/hugo-whisper-theme.git Install from .zip file You can download the .zip file located here https://github.com/JugglerX/hugo-whisper-theme/archive/master.zip.
+Extract the downloaded .zip inside the themes folder. Rename the extracted folder from hugo-whisper-theme-master -&gt; hugo-whisper-theme.</p>
+</div>
+
+
+<div class="summary mb-2">
+  
+  <h2 class="title-summary"><a href="fornaxdb.github.io/docs/configure/">Configuration</a></h2>
+  <p>Syntax highlighting and menus can be configured via <code>config.toml</code>.</p>
+</div>
+
+
+<div class="summary mb-2">
+  
+  <h2 class="title-summary"><a href="fornaxdb.github.io/docs/specimen/">Specimen</a></h2>
+  <p>Markdown Test Page  Headings Paragraphs Blockquotes Lists Horizontal rule Table Code Inline elements   Headings Heading one Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat commodo id sunt. Nostrud enim ad commodo incididunt cupidatat in ullamco ullamco Lorem cupidatat velit enim et Lorem.
+Heading two Aute officia nulla deserunt do deserunt cillum velit magna.</p>
+</div>
+
+
+<div class="summary mb-2">
+  
+  <h2 class="title-summary"><a href="fornaxdb.github.io/docs/example/">Hugo Whisper</a></h2>
+  <p><p>Whisper is a minimal documentation theme built for Hugo. The design &amp; functionality is intentionally minimal.</p></p>
+</div>
 
 
 
- 
+
+        </div>
       </div>
-    </aside>
+    </div>
     
-  </main>
+  </div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            <li class="zerostatic"><a href="https://www.zerostatic.io">www.zerostatic.io</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
   
+
+  
+  
+
+  
+  <script type="text/javascript" src="/fornaxdb.github.io/js/scripts.min.bafc052229b4b40bf03c477d31c5cdd9352ece8afbadf35ab97ed14495098fc9.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
