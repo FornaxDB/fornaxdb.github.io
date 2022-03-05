@@ -1,4 +1,4 @@
-baseURL = "fornaxdb.github.io"
+baseURL = "/"
 languageCode = "en-us"
 title = "FornaxDB"
 themesDir = "themes"
